@@ -4,5 +4,6 @@ class Solution:
         for i in nums:
             if i in sett:
                 return True
-            sett.add(i)
+            else:
+                sett.add(i)
         return False
